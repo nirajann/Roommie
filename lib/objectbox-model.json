@@ -1,0 +1,190 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:154094744469173903",
+      "lastPropertyId": "13:1062861036561704918",
+      "name": "Hostel",
+      "properties": [
+        {
+          "id": "1:2152680420273099751",
+          "name": "hId",
+          "type": 6,
+          "flags": 129
+        },
+        {
+          "id": "2:8750054903926214449",
+          "name": "hostelid",
+          "type": 9,
+          "flags": 2080,
+          "indexId": "1:8213980472615547164"
+        },
+        {
+          "id": "3:3717692673430383534",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "4:4738732633848416416",
+          "name": "type",
+          "type": 9
+        },
+        {
+          "id": "5:5151401725910241598",
+          "name": "address",
+          "type": 9
+        },
+        {
+          "id": "6:1468940259361186635",
+          "name": "city",
+          "type": 9
+        },
+        {
+          "id": "7:9212995681576286926",
+          "name": "phone",
+          "type": 9
+        },
+        {
+          "id": "8:4167735208115887480",
+          "name": "photos",
+          "type": 9
+        },
+        {
+          "id": "9:2000675482160487768",
+          "name": "title",
+          "type": 9
+        },
+        {
+          "id": "10:7028302971166302127",
+          "name": "desc",
+          "type": 9
+        },
+        {
+          "id": "11:2468371357784933560",
+          "name": "rating",
+          "type": 6
+        },
+        {
+          "id": "12:368792400788686289",
+          "name": "cheapestPrice",
+          "type": 6
+        },
+        {
+          "id": "13:1062861036561704918",
+          "name": "featured",
+          "type": 1
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:3975570120311867770",
+      "lastPropertyId": "2:6109242029990609720",
+      "name": "Orders",
+      "properties": [
+        {
+          "id": "1:7003558737033560277",
+          "name": "oid",
+          "type": 6,
+          "flags": 129
+        },
+        {
+          "id": "2:6109242029990609720",
+          "name": "orderid",
+          "type": 9,
+          "flags": 2080,
+          "indexId": "2:5801360058060581416"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:8164990310463910730",
+      "lastPropertyId": "6:7596032804997492950",
+      "name": "User",
+      "properties": [
+        {
+          "id": "1:4068965230344034106",
+          "name": "uId",
+          "type": 6,
+          "flags": 129
+        },
+        {
+          "id": "2:783955412383446089",
+          "name": "userId",
+          "type": 9,
+          "flags": 2080,
+          "indexId": "3:5016043339141036809"
+        },
+        {
+          "id": "3:990808656815560637",
+          "name": "email",
+          "type": 9
+        },
+        {
+          "id": "4:774495102116804982",
+          "name": "Username",
+          "type": 9
+        },
+        {
+          "id": "5:8750073317288486094",
+          "name": "password",
+          "type": 9
+        },
+        {
+          "id": "6:7596032804997492950",
+          "name": "pic",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "4:7337353775075678148",
+      "lastPropertyId": "5:3049619070490822334",
+      "name": "VerifyOrders",
+      "properties": [
+        {
+          "id": "1:259838137364596958",
+          "name": "oid",
+          "type": 6,
+          "flags": 129
+        },
+        {
+          "id": "2:4397210217698252714",
+          "name": "checkInDate",
+          "type": 10
+        },
+        {
+          "id": "3:1896195651576639430",
+          "name": "checkOutDate",
+          "type": 10
+        },
+        {
+          "id": "4:7023985865128613393",
+          "name": "location",
+          "type": 9
+        },
+        {
+          "id": "5:3049619070490822334",
+          "name": "phone",
+          "type": 9
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "4:7337353775075678148",
+  "lastIndexId": "3:5016043339141036809",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
